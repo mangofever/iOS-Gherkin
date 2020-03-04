@@ -1,0 +1,9 @@
+xcuserdata/
+Pods/
+.DS_Store
+DerivedData/
+build/
+Builds/
+
+# AppCode
+.idea/
