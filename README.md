@@ -100,11 +100,17 @@ class WeirdAdderSpec: GherkinSpec {
 }
 ```
 
-Benfits
+## Benfits
 1. less '}'s.
 2. more specific context keywords (Given, When, Then).
 3. no ```beforeEach``` needed.
 
 Keywords are from Cucumber(https://cucumber.io/docs/gherkin/).
+
+## Install
+### Cocoapods
+```
+pod 'Gherkin'
+```
 
 This is a basic idea. So please give feedbacks to improve iOS-Gherkin. Thank you!
