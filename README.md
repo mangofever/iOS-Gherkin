@@ -113,4 +113,4 @@ Keywords are from Cucumber(https://cucumber.io/docs/gherkin/).
 pod 'Gherkin'
 ```
 
-This is a basic idea. So please give feedbacks to improve iOS-Gherkin. Thank you!
+Please give feedbacks to improve iOS-Gherkin. Thank you!
