@@ -2,7 +2,7 @@
 
 iOS-Gherkin is a library wrapping Quick (https://github.com/Quick/Quick)
 
-With Quick, you write your tests like below:
+With Quick:
 ```
 class AdderSpec: QuickSpec {
   override func spec() {
@@ -56,9 +56,9 @@ class AdderSpec: QuickSpec {
 } // so many }}}}}}} 
 ```
 
-With Gherkin, you can write your tests like below:
+With Gherkin:
 ```
-class WeirdAdderSpec: GherkinSpec {
+class AdderSpec: GherkinSpec {
   override func spec() {
     Feature("add") {
       var adder: Adder!
@@ -100,7 +100,7 @@ class WeirdAdderSpec: GherkinSpec {
 }
 ```
 
-## Benfits
+## Benefits
 1. less '}'s.
 2. more specific context keywords (Given, When, Then).
 3. no ```beforeEach``` needed.
