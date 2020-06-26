@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -66,7 +66,7 @@
 		5EC3F10A23FFF91F002A1676 = {
 			isa = PBXGroup;
 			children = (
-				5EC3F11623FFF91F002A1676 /* Gherkin */,
+				5ED0769824A5EED4002ED463 /* Sources */,
 				5EC3F12123FFF91F002A1676 /* GherkinTests */,
 				5EC3F11523FFF91F002A1676 /* Products */,
 				AC8153551683AB3C5776D057 /* Pods */,
@@ -83,16 +83,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EC3F11623FFF91F002A1676 /* Gherkin */ = {
-			isa = PBXGroup;
-			children = (
-				5EC3F11723FFF91F002A1676 /* Gherkin.h */,
-				5EC3F11823FFF91F002A1676 /* Info.plist */,
-				5EC3F12E23FFF940002A1676 /* Gherkin.swift */,
-			);
-			path = Gherkin;
-			sourceTree = "<group>";
-		};
 		5EC3F12123FFF91F002A1676 /* GherkinTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +90,17 @@
 				5EC3F12423FFF91F002A1676 /* Info.plist */,
 			);
 			path = GherkinTests;
+			sourceTree = "<group>";
+		};
+		5ED0769824A5EED4002ED463 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3F11723FFF91F002A1676 /* Gherkin.h */,
+				5EC3F11823FFF91F002A1676 /* Info.plist */,
+				5EC3F12E23FFF940002A1676 /* Gherkin.swift */,
+			);
+			name = Sources;
+			path = Sources/Gherkin;
 			sourceTree = "<group>";
 		};
 		AC8153551683AB3C5776D057 /* Pods */ = {
@@ -110,7 +111,6 @@
 				61EF86B04B46238F6B301072 /* Pods-Gherkin-GherkinTests.debug.xcconfig */,
 				52E37AF7F0AF2AB280E05811 /* Pods-Gherkin-GherkinTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -455,7 +455,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Gherkin/Info.plist;
+				INFOPLIST_FILE = Sources/Gherkin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,7 +482,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Gherkin/Info.plist;
+				INFOPLIST_FILE = Sources/Gherkin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

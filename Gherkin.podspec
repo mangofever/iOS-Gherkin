@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.license      = 'MIT'
   spec.author       = { "mangofeverr" => "mangofeverr@gmail.com" }
   spec.source       = { :git => "https://github.com/mangofever/iOS-Gherkin.git", :tag => "#{spec.version}" }
-  spec.source_files = 'Gherkin/Gherkin.swift'
+  spec.source_files = 'Sources/Gherkin/Gherkin.swift'
   spec.dependency 'Quick', '2.2.0'
 end
