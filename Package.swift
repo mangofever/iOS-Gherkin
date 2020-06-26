@@ -12,7 +12,7 @@ let package = Package(
             targets: ["Gherkin"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Quick", .exact(from: "2.2.1")),
+        .package(url: "https://github.com/Quick/Quick", .upToNextMajor(from: "2.2.1")),
         .package(url: "https://github.com/Quick/Nimble", .upToNextMajor(from: "8.0.0"))
     ],
     targets: [
