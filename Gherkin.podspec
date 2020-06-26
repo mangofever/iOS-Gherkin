@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'Gherkin'
-  spec.version      = '0.6'
+  spec.version      = '0.7'
   spec.platform     = :ios
   spec.ios.deployment_target = '9.0'
   spec.swift_version  = '5.0'
