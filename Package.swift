@@ -12,8 +12,8 @@ let package = Package(
             targets: ["Gherkin"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Quick", .upToNextMajor(from: "3.0.0")),
-        .package(url: "https://github.com/Quick/Nimble", .upToNextMajor(from: "8.1.1"))
+        .package(url: "https://github.com/Quick/Quick", .exact(from: "2.2.1")),
+        .package(url: "https://github.com/Quick/Nimble", .upToNextMajor(from: "8.0.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
